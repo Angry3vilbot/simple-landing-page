@@ -32,4 +32,35 @@ header{
 }
 #hero{
 	background-color: var(--heroColor);
+	display: flex;
+	height: 460px;
+}
+#hero div{
+	margin-top: 100px;
+	margin-left: 200px;
+}
+#hero div h1{
+	font-size: 48px;
+	font-weight: 800;
+	color: #F9FAF8;
+}
+#hero div p{
+	font-size: 18px;
+	color: #E5E7EB;
+}
+#hero div button{
+	background-color: #3882F6;
+	color: #F9FAF8;
+	font-size: 18px;
+	margin-top: 10px;
+	width: 150px;
+	height: 40px;
+	border-radius: 10px;
+	border-color: transparent;
+}
+#hero img{
+	margin-top: 100px;
+	margin-right: 200px;
+	width: 1000px;
+	height: 200px;
 }
