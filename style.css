@@ -10,7 +10,7 @@
 
 header{
 	background-color: var(--heroColor);
-	width: 100vw;
+	width: 100%;
 	display: flex;
 	justify-content: space-around;
 	padding-top: 20px;
@@ -89,7 +89,7 @@ header{
 .illustration{
 	width: 150px;
 	height: 150px;
-	border: solid 3px #3882F6;
+	border: solid 4px #3882F6;
 	border-radius: 20px;
 }
 #illustrationGrid p{
@@ -98,4 +98,26 @@ header{
 	width: 190px;
 	text-align: center;
 	margin-left: -20px;
+}
+#quoteSection{
+	background-color: #E5E7EB;
+	width: 100%;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#quoteSection p{
+	color: #1F2937;
+	font-size: 36px;
+	font-style: italic;
+	font-weight: 100;
+	width: 800px;
+}
+#quoteSection #quoteAuthor{
+	font-style: normal;
+	font-weight: 800;
+	font-size: 24px;
+	text-align: right;
 }
