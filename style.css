@@ -121,3 +121,36 @@ header{
 	font-size: 24px;
 	text-align: right;
 }
+#actionCallContainer{
+	width: 100%;
+	height: 340px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #F9FAF8;
+}
+#actionCall{
+	background-color: #3882F6;
+	width: 70%;
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	border-radius: 10px;
+}
+#actionCall button{
+	background-color: #3882F6;
+	width: 130px;
+	height: 35px;
+	border: solid 2px white;
+	border-radius: 10px;
+	color: #F9FAF8;
+}
+footer{
+	background-color: var(--heroColor);
+	color: white;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
